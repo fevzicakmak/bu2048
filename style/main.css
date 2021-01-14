@@ -2,8 +2,8 @@
 html, body {
   margin: 0;
   padding: 0;
-  background: #faf8ef;
-  color: #776e65;
+  background: #ffffff;
+  color: #13427C;
   font-family: "PT Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 18px; }
 
@@ -56,7 +56,7 @@ h1.title {
 .score-container, .best-container {
   position: relative;
   display: inline-block;
-  background: #bbada0;
+  background: #289DD3;
   padding: 15px 25px;
   font-size: 25px;
   height: 25px;
@@ -71,7 +71,6 @@ h1.title {
     width: 100%;
     top: 10px;
     left: 0;
-    text-transform: uppercase;
     font-size: 13px;
     line-height: 13px;
     text-align: center;
@@ -79,11 +78,11 @@ h1.title {
   .score-container .score-addition, .best-container .score-addition {
     position: absolute;
     right: 30px;
-    color: red;
+    color: blue;
     font-size: 25px;
     line-height: 25px;
     font-weight: bold;
-    color: rgba(119, 110, 101, 0.9);
+    color: #13427C;
     z-index: 100;
     -webkit-animation: move-up 600ms ease-in;
     -moz-animation: move-up 600ms ease-in;
@@ -104,7 +103,7 @@ p {
   line-height: 1.65; }
 
 a {
-  color: #776e65;
+  color: #13427C;
   font-weight: bold;
   text-decoration: underline;
   cursor: pointer; }
@@ -151,7 +150,7 @@ hr {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -moz-user-select: none;
-  background: #bbada0;
+  background: #289DD3;
   border-radius: 6px;
   width: 500px;
   height: 500px;
@@ -166,7 +165,7 @@ hr {
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba(238, 228, 218, 0.5);
+    background: rgba(40, 157, 211, 0.8);
     z-index: 100;
     text-align: center;
     -webkit-animation: fade-in 800ms ease 1200ms;
@@ -176,17 +175,17 @@ hr {
     -moz-animation-fill-mode: both;
     animation-fill-mode: both; }
     .game-container .game-message p {
-      font-size: 60px;
+      font-size: 56px;
       font-weight: bold;
-      height: 60px;
-      line-height: 60px;
-      margin-top: 222px; }
+      height: 66px;
+      line-height: 56px;
+      margin-top: 192px; }
     .game-container .game-message .lower {
       display: block;
       margin-top: 59px; }
     .game-container .game-message a {
       display: inline-block;
-      background: #8f7a66;
+      background: #13427C;
       border-radius: 3px;
       padding: 0 20px;
       text-decoration: none;
@@ -197,7 +196,7 @@ hr {
       .game-container .game-message a.keep-playing-button {
         display: none; }
     .game-container .game-message.game-won {
-      background: rgba(237, 194, 46, 0.5);
+      background: rgba(40, 157, 211, 0.8);
       color: #f9f6f2; }
       .game-container .game-message.game-won a.keep-playing-button {
         display: inline-block; }
@@ -223,7 +222,7 @@ hr {
   margin-right: 15px;
   float: left;
   border-radius: 3px;
-  background: rgba(238, 228, 218, 0.35); }
+  background: rgba(255, 255, 255, 0.25); }
   .grid-cell:last-child {
     margin-right: 0; }
 
@@ -316,56 +315,56 @@ hr {
     z-index: 10;
     font-size: 55px; }
   .tile.tile-2 .tile-inner {
-    background: #f0f url('../img/cevik.jpg');
+    background: #13427C url('../img/polis.jpg');
     background-size: cover; }
   .tile.tile-4 .tile-inner {
-    background: #f0f url('../img/voli.jpg');
+    background: #13427C url('../img/kelepce.jpg');
     background-size: cover; }
   .tile.tile-8 .tile-inner {
-    background: #f0f url('../img/topbas.jpg');
+    background: #13427C url('../img/sharing.jpg');
     background-size: cover; }
   .tile.tile-16 .tile-inner {
-    background: #f0f url('../img/imelih.jpg');
+    background: #13427C url('../img/ciko.jpg');
     background-size: cover; }
   .tile.tile-32 .tile-inner {
-    background: #f0f url('../img/binali.jpg');
+    background: #13427C url('../img/jbl.jpg');
     background-size: cover; }
   .tile.tile-64 .tile-inner {
-    background: #f0f url('../img/egeboy.jpg');
+    background: #13427C url('../img/sari-rehber.jpg');
     background-size: cover; }
   .tile.tile-128 .tile-inner {
-    background: #f0f url('../img/boyunsuz.jpg');
+    background: #13427C url('../img/buis.jpg');
     background-size: cover; }
     @media screen and (max-width: 520px) {
       .tile.tile-128 .tile-inner {
         font-size: 25px; } }
   .tile.tile-256 .tile-inner {
-    background: #f0f url('../img/ayakkabici.jpg');
+    background: #13427C url('../img/rejected.jpg');
     background-size: cover; }
     @media screen and (max-width: 520px) {
       .tile.tile-256 .tile-inner {
         font-size: 25px; } }
   .tile.tile-512 .tile-inner {
-    background: #f0f url('../img/reza.jpg');
+    background: #13427C url('../img/album.jpg');
     background-size: cover; }
     @media screen and (max-width: 520px) {
       .tile.tile-512 .tile-inner {
         font-size: 25px; } }
   .tile.tile-1024 .tile-inner {
-    background: #f0f url('../img/bilo.jpg');
+    background: #13427C url('../img/similarity.jpg');
     background-size: cover; }
     @media screen and (max-width: 520px) {
       .tile.tile-1024 .tile-inner {
         font-size: 15px; } }
   .tile.tile-2048 .tile-inner {
-    background: #f0f url('../img/tayyo.jpg');
+    background: #13427C url('../img/bulu.jpg');
     background-size: cover; }
     @media screen and (max-width: 520px) {
       .tile.tile-2048 .tile-inner {
         font-size: 15px; } }
   .tile.tile-super .tile-inner {
     color: #f9f6f2;
-    background: #3c3a32;
+    background: #13427C;
     font-size: 30px; }
     @media screen and (max-width: 520px) {
       .tile.tile-super .tile-inner {
@@ -548,7 +547,7 @@ hr {
         margin-top: 59px; }
       .game-container .game-message a {
         display: inline-block;
-        background: #8f7a66;
+        background: #13427C;
         border-radius: 3px;
         padding: 0 20px;
         text-decoration: none;
@@ -559,7 +558,7 @@ hr {
         .game-container .game-message a.keep-playing-button {
           display: none; }
       .game-container .game-message.game-won {
-        background: rgba(237, 194, 46, 0.5);
+        background: #13427C;
         color: #f9f6f2; }
         .game-container .game-message.game-won a.keep-playing-button {
           display: inline-block; }
@@ -585,7 +584,7 @@ hr {
     margin-right: 10px;
     float: left;
     border-radius: 3px;
-    background: rgba(238, 228, 218, 0.35); }
+    background: rgba(238, 238, 238, 0.35); }
     .grid-cell:last-child {
       margin-right: 0; }
 
